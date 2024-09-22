@@ -1,0 +1,11 @@
+C:\Users\derek\Documents\CSWork\ec447\lab1\ec447-lab1\ec447-lab1\bin\Debug\ec447-lab1.exe.config
+C:\Users\derek\Documents\CSWork\ec447\lab1\ec447-lab1\ec447-lab1\bin\Debug\ec447-lab1.exe
+C:\Users\derek\Documents\CSWork\ec447\lab1\ec447-lab1\ec447-lab1\bin\Debug\ec447-lab1.pdb
+C:\Users\derek\Documents\CSWork\ec447\lab1\ec447-lab1\ec447-lab1\obj\Debug\ec447-lab1.csproj.AssemblyReference.cache
+C:\Users\derek\Documents\CSWork\ec447\lab1\ec447-lab1\ec447-lab1\obj\Debug\ec447-lab1.csproj.SuggestedBindingRedirects.cache
+C:\Users\derek\Documents\CSWork\ec447\lab1\ec447-lab1\ec447-lab1\obj\Debug\ec447_lab1.Form1.resources
+C:\Users\derek\Documents\CSWork\ec447\lab1\ec447-lab1\ec447-lab1\obj\Debug\ec447_lab1.Properties.Resources.resources
+C:\Users\derek\Documents\CSWork\ec447\lab1\ec447-lab1\ec447-lab1\obj\Debug\ec447-lab1.csproj.GenerateResource.cache
+C:\Users\derek\Documents\CSWork\ec447\lab1\ec447-lab1\ec447-lab1\obj\Debug\ec447-lab1.csproj.CoreCompileInputs.cache
+C:\Users\derek\Documents\CSWork\ec447\lab1\ec447-lab1\ec447-lab1\obj\Debug\ec447-lab1.exe
+C:\Users\derek\Documents\CSWork\ec447\lab1\ec447-lab1\ec447-lab1\obj\Debug\ec447-lab1.pdb
