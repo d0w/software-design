@@ -15,7 +15,7 @@ namespace Lab3
         public Form1()
         {
             InitializeComponent();
-            this.Text = "Derek Xu";
+            this.Text = "Sine Wave by Derek Xu";
             this.StartPosition = FormStartPosition.CenterScreen;
             this.Size = new Size(500, 500);
             ResizeRedraw = true;
@@ -34,31 +34,25 @@ namespace Lab3
             Graphics g = e.Graphics;
             Size cs = ClientSize;
             g.TranslateTransform(cs.Width / 2.0f, cs.Height / 2.0f);
-            g.ScaleTransform((float)cs.Height / 400.0f, (float)cs.Width / 800.0f);
 
-            //g.DrawRectangle(Pens.Black, 0,0, 800, 400);
+            // scale drawing area to 800x400
+            float scale = Math.Min(cs.Width / 800.0f, cs.Height / 400.0f);
+            if (scale == 0f) return;
+            g.ScaleTransform(scale, scale);
 
-            // draw the axes of 400 units long each
+            // draw the axes of 400 units long each centered at the origin
             g.DrawLine(Pens.Black, 0, -200, 0, 200);
-            g.DrawLine(Pens.Black, -200, 0, 200, 0);
+            g.DrawLine(Pens.Black, -400, 0, 400, 0);
 
-
-            //for (int x = -200; x <= 200; x++)
-            //{
-            //    float radians = (float)(-x * Math.PI / 180); // Convert degrees to radians
-            //    float y = (float)Math.Sin(radians) * 100; // Scale y to peak to peak amplitude of 200 (-100 -> 100)
-
-            //    // Draw a circle for each degree
-            //    g.FillEllipse(Brushes.Black, x - 1, -y - 1, 2, 2);
-            //}
-
-            for (int x = -400; x <= 400; x++)
+            // draw sine wave
+            for (int x = -360; x <= 360; x++)
             {
                 float radians = (float)(x * Math.PI / 180); // Convert degrees to radians
-                float y = (float)Math.Sin(radians) * 100; // Scale y to peak amplitude of 200
+                float y = (float)Math.Sin(radians) * 100.0f; // Scale y to peak amplitude of 100 so that the peak-to-peak amplitude is 200
                 // Draw a circle for each degree
                 g.FillEllipse(Brushes.Black, x - 1, y - 1, 2, 2); // Centered around (x, y)
             }
+
 
         }
     }
